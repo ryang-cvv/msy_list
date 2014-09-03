@@ -1,0 +1,173 @@
+body {
+	text-align: center;
+	font-family: Verdana, Helvetica, sans, sans-serif;
+	font-size: 10pt;
+	margin: 0;
+	background:#ccc;
+}
+h2 {
+	margin: 0;
+}
+
+.search {
+	float: right;
+	clear: left;
+}
+.search input[type=text] {
+	margin: 3px 5px 0;
+	font-size: 10px;
+}
+
+.menu{
+	border: none;
+	border: 0;
+	margin: 0;
+	padding: 0;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.menu ul{
+	background: #333;
+	border-bottom: 2px solid #2580a2;
+	height: 25px;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.menu li{
+	float: left;
+	padding: 0;
+}
+.menu li a{
+	background: #333;
+	color: #ccc;
+	display: block;
+	font-weight: normal;
+	line-height: 25px;
+	margin: 0;
+	padding: 0px 5px;
+	text-align: center;
+	text-decoration: none;
+}
+.menu li a:hover, .menu ul li:hover a{
+	background: #2580a2;
+	color: #fff;
+	text-decoration: none;
+}
+.menu li ul{
+	background: #333;
+	display: none;
+	height: auto;
+	padding: 0;
+	margin: 0;
+	border: 1px solid black;
+	position: absolute;
+	/*width: 225px;*/
+	z-index: 200;
+	/*top:1em;
+	/*left:0;*/
+}
+.menu li:hover ul{
+	display: block;
+}
+.menu li li {
+	display: block;
+	float: none;
+	margin: 0;
+	padding: 0;
+	/*width: 225px;*/
+}
+.menu li:hover li a{
+	background: none;
+}
+.menu li ul a{
+	display: block;
+	height: 25px;
+	font-size: 12px;
+	font-style: normal;
+	margin: 0;
+	padding: 0px 5px;
+	text-align: left;
+}
+.menu li ul a:hover, .menu li ul li:hover a{
+	background: #2580a2;
+	border: 0;
+	color: #fff;
+	text-decoration: none;
+}
+.menu p{
+	clear: left;
+}	
+
+a.info {
+	position: relative;
+	z-index: 24;
+	background-color: #ccc;
+	text-decoration: none;
+}
+a.info:hover {
+	z-index: 25;
+}
+a.info span {
+	display: none;
+}
+a.info:hover span {
+	font-family: Verdana, Helvetica, sans, sans-serif;
+	font-size: 10pt;
+	font-weight: normal;
+	padding: 5px;
+	display: block;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	width: 200px;
+	border: 1px solid black;
+	background-color: #fff;
+	color: #000;
+	text-align: left;
+}
+
+.sh {
+	padding: 0;
+	float: right;
+	color: #606;
+}
+
+table {
+	font-family: Verdana, Helvetica, sans, sans-serif;
+	font-size: 10pt;
+	border-collapse: collapse;
+	border: 1px solid black;
+	width: 90%;
+	background-color: #fff;
+}
+th {
+	background: #2580a2;
+	color:#fff;
+	text-align: left;
+	font-size: 10pt;
+}
+th a {
+	text-decoration: none;
+	color: black;
+}
+th,td {
+	padding: 10px;
+	border-top: 1px solid black;
+	text-align: left;
+}
+tr:nth-of-type(odd) {
+	background-color: #f4f0ed;
+}
+tr.old { 
+	background-color: #ebdde2;
+}
+tr.old a {
+	text-decoration: none;
+	color: black;
+}
+
+.arrows {
+	color: white;
+}

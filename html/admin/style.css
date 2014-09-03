@@ -1,0 +1,9 @@
+option {
+	background-color: #ddd;
+}
+.child {
+	background-color: #eee;
+}
+.selected {
+	background-color: #eee;
+}

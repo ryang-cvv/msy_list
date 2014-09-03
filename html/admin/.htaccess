@@ -1,0 +1,4 @@
+AuthName "Dialog prompt"
+AuthType Basic
+AuthUserFile /home/gr8rx/.htpasswd
+Require valid-user
